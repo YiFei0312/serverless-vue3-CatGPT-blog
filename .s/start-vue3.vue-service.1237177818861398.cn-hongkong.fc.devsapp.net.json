@@ -1,0 +1,43 @@
+{
+  "domainName": "start-vue3.vue-service.1237177818861398.cn-hongkong.fc.devsapp.net",
+  "accountId": "1237177818861398",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "apiVersion": "",
+        "serviceName": "vue-service",
+        "functionName": "start-vue3",
+        "qualifier": null,
+        "methods": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "rewriteConfig": null,
+        "innerRewriteConfig": null
+      }
+    ]
+  },
+  "createdTime": "2023-09-25T22:24:39Z",
+  "lastModifiedTime": "2023-09-25T22:27:14Z",
+  "keepFullPath": null,
+  "subdomainCount": null,
+  "wafConfig": {
+    "enableWAF": false
+  }
+}

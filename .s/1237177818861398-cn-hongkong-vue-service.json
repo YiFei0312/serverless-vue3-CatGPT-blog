@@ -1,0 +1,41 @@
+{
+  "statefulConfig": {
+    "serviceName": "vue-service",
+    "description": "Serverless Devs Website Service",
+    "role": "",
+    "logConfig": {
+      "project": "",
+      "logstore": "",
+      "enableRequestMetrics": false,
+      "enableInstanceMetrics": false,
+      "logBeginRule": "None"
+    },
+    "serviceId": "e830b09d-e32b-4a49-9c59-bbbf245468a2",
+    "createdTime": "2023-09-25T22:24:33Z",
+    "lastModifiedTime": "2023-09-25T22:27:13Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": null,
+      "anytunnelViaENI": null
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "ossMountConfig": {
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "useSLRAuthentication": false,
+    "name": "vue-service"
+  }
+}

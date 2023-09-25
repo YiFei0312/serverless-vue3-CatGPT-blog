@@ -1,0 +1,28 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "073d9d14-5a12-4023-8d3d-2a1439c5e03c",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": "LATEST",
+    "urlInternet": "https://start-vue-vue-service-mbuxjsxfcr.cn-hongkong.fcapp.run",
+    "urlIntranet": "https://start-vue-vue-service-mbuxjsxfcr.cn-hongkong-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "authType": "anonymous",
+      "disableURLInternet": false
+    },
+    "createdTime": "2023-09-25T22:24:38Z",
+    "lastModifiedTime": "2023-09-25T22:27:13Z",
+    "status": null,
+    "targetArn": null,
+    "name": "httpTrigger"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "statefulConfig": {
+    "functionId": "698fd23a-944d-4b23-a408-05ff402407f0",
+    "functionName": "start-vue3",
+    "description": "Vue3 Function",
+    "runtime": "custom",
+    "handler": "index.handler",
+    "timeout": 30,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 1181796,
+    "codeChecksum": "5506575260047895500",
+    "memorySize": 512,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-09-25T22:24:38Z",
+    "lastModifiedTime": "2023-09-25T22:27:13Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": {
+      "command": [
+        "node"
+      ],
+      "args": [
+        "/code/index.js"
+      ]
+    },
+    "customHealthCheckConfig": null,
+    "name": "start-vue3"
+  }
+}

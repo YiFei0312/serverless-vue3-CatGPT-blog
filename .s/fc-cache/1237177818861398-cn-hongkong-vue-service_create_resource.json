@@ -1,0 +1,9 @@
+{
+  "serviceName": "vue-service",
+  "functionNames": [
+    "vue-service/start-vue3"
+  ],
+  "domains": [
+    "start-vue3.vue-service.1237177818861398.cn-hongkong.fc.devsapp.net"
+  ]
+}
