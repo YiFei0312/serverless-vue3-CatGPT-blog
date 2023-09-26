@@ -13,8 +13,8 @@ services:
     component: fc # 组件名称
     actions:
       pre-deploy:
-        # - run: yarn install
-        #   path: ./code
+        - run: npm install
+          path: ./code
         # - run: yarn run lint --fix
         #   path: ./code
         - run: npm run build
