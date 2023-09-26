@@ -17,8 +17,8 @@ services:
         #   path: ./code
         # - run: yarn run lint --fix
         #   path: ./code
-        # - run: npm run build
-        #   path: ./code
+        - run: npm run build
+          path: ./code
         - plugin: website-fc
     props: # 组件的属性值
       region: ${vars.region}
