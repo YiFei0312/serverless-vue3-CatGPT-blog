@@ -1,4 +1,4 @@
-# start-vue3 帮助文档
+# CatGPT and blog
 
 <p align="center" class="flex justify-center">
     <a href="https://www.serverless-devs.com" class="ml-1">
